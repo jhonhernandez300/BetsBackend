@@ -12,6 +12,6 @@ namespace Bets.Domain.Models
         
         public required DateTime TeamStart { get; set; }
 
-        public DateTime TeamEnd { get; set; }
+        public DateTime? TeamEnd { get; set; }
     }
 }

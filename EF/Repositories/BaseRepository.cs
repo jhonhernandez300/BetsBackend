@@ -21,7 +21,7 @@ namespace Bets.EF.Repositories
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()
-        {
+        {            
             return await _context.Set<T>().ToListAsync();
         }
 
